@@ -10,7 +10,7 @@ This project addresses the problem of improving classification performance throu
 systematic fine-tuning of a neural network model, using MLflow to track experiments,
 compare configurations, and support objective model selection.
 
----
+
 
 ## Technology Stack
 - **Programming Language:** Python
@@ -20,7 +20,7 @@ compare configurations, and support objective model selection.
 - **Visualization:** Matplotlib
 - **Environment:** Jupyter Notebook
 
----
+
 
 ## Architecture – Phased Approach
 
@@ -45,7 +45,7 @@ Each configuration is logged as an independent experiment in MLflow.
 All models are evaluated using multiple metrics, allowing a comprehensive comparison
 based on overall classification performance.
 
----
+
 
 ## Captures
 - MLflow experiment tracking interface
@@ -56,7 +56,7 @@ Visual evidence of these results can be found in:
 - `SolanoAGuillenJ_MlflowFineTuningV1.html`
 - `Resultados_SolanoAGuillenJ_MlflowFineTuningV1.pdf`
 
----
+
 
 ## What Was Achieved
 - Implementation of a reproducible fine-tuning workflow
@@ -64,7 +64,7 @@ Visual evidence of these results can be found in:
 - Objective comparison of multiple neural network configurations
 - Identification of a fine-tuned model with improved overall performance balance
 
----
+
 
 ## Code
 The full implementation is available in the following files:
@@ -76,7 +76,7 @@ The full implementation is available in the following files:
 - **`SolanoAGuillenJ_MlflowFineTuningV1.html`**  
   Executed and exported version of the notebook for direct visualization.
 
----
+
 
 ## Quantifiable Results
 - Accuracy values remained stable across configurations (approximately 0.78–0.80),
@@ -90,7 +90,7 @@ The full implementation is available in the following files:
 Detailed numerical results and analysis are documented in
 `Resultados_SolanoAGuillenJ_MlflowFineTuningV1.pdf`.
 
----
+
 
 ## Authors
 Ariel Solano  
